@@ -1,6 +1,4 @@
-package org.example.handler;
-
-import org.example.Monster;
+package org.example;
 
 import java.io.File;
 import java.util.List;

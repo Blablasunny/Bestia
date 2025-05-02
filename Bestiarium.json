@@ -1,5 +1,5 @@
 {
-  "monsters": [
+  "monster": [
     {
       "name": "Леший",
       "description": "Гибрид человека и лесного духа, охраняющий древние рощи.",
@@ -20,11 +20,20 @@
         "activeTime": "ночь"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "корень мандрагоры": 3,
-          "пепел драконида": 1,
-          "эссенция полыни": 1
-        },
+        "ingredients": [
+          {
+            "name": "корень мандрагоры",
+            "quantity": 3
+          },
+          {
+            "name": "пепел драконида",
+            "quantity": 1
+          },
+          {
+            "name": "эссенция полыни",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 60,
         "efficiency": "умеренная"
       },
@@ -47,11 +56,20 @@
         "activeTime": "день"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "лепестки лунного цветка": 2,
-          "серебряная нить": 1,
-          "экстракт чеснока": 1
-        },
+        "ingredients": [
+          {
+            "name": "лепестки лунного цветка",
+            "quantity": 2
+          },
+          {
+            "name": "серебряная нить",
+            "quantity": 1
+          },
+          {
+            "name": "экстракт чеснока",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 30,
         "efficiency": "высокая"
       },
@@ -75,11 +93,20 @@
         "activeTime": "сумерки"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "жало мантикоры": 4,
-          "нефритовая пыль": 2,
-          "спирт Альберихта": 1
-        },
+        "ingredients": [
+          {
+            "name": "жало мантикоры",
+            "quantity": 4
+          },
+          {
+            "name": "нефритовая пыль",
+            "quantity": 2
+          },
+          {
+            "name": "спирт Альберихта",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 90,
         "efficiency": "критическая"
       },
@@ -102,11 +129,20 @@
         "activeTime": "ночь"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "грибы-поганки": 5,
-          "глаз василиска": 1,
-          "роса папоротника": 3
-        },
+        "ingredients": [
+          {
+            "name": "грибы-поганки",
+            "quantity": 5
+          },
+          {
+            "name": "глаз василиска",
+            "quantity": 1
+          },
+          {
+            "name": "роса папоротника",
+            "quantity": 3
+          }
+        ],
         "preparationTime": 45,
         "efficiency": "средняя"
       },
@@ -130,11 +166,20 @@
         "activeTime": "всегда"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "сердце огненного элементаля": 1,
-          "сера": 3,
-          "расплавленное железо": 1
-        },
+        "ingredients": [
+          {
+            "name": "сердце огненного элементаля",
+            "quantity": 1
+          },
+          {
+            "name": "сера",
+            "quantity": 3
+          },
+          {
+            "name": "расплавленное железо",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 120,
         "efficiency": "переменная"
       },
@@ -159,11 +204,20 @@
         "activeTime": "день"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "перья орла": 5,
-          "кристалл чистого воздуха": 1,
-          "звездная пыль": 2
-        },
+        "ingredients": [
+          {
+            "name": "перья орла",
+            "quantity": 5
+          },
+          {
+            "name": "кристалл чистого воздуха",
+            "quantity": 1
+          },
+          {
+            "name": "звездная пыль",
+            "quantity": 2
+          }
+        ],
         "preparationTime": 75,
         "efficiency": "высокая"
       },
@@ -188,11 +242,20 @@
         "activeTime": "всегда"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "шерсть золотого барана": 1,
-          "мед из лабиринта": 3,
-          "пряжа Ариадны": 2
-        },
+        "ingredients": [
+          {
+            "name": "шерсть золотого барана",
+            "quantity": 1
+          },
+          {
+            "name": "мед из лабиринта",
+            "quantity": 3
+          },
+          {
+            "name": "пряжа Ариадны",
+            "quantity": 2
+          }
+        ],
         "preparationTime": 90,
         "efficiency": "критическая"
       },
@@ -218,11 +281,20 @@
         "activeTime": "ночь"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "чеснок": 6,
-          "священная вода": 2,
-          "прах мумии": 1
-        },
+        "ingredients": [
+          {
+            "name": "чеснок",
+            "quantity": 6
+          },
+          {
+            "name": "священная вода",
+            "quantity": 2
+          },
+          {
+            "name": "прах мумии",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 60,
         "efficiency": "переменная"
       },
@@ -248,11 +320,20 @@
         "activeTime": "сумерки"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "шерсть нemeanского льва": 2,
-          "рог единорога": 1,
-          "слеза феникса": 1
-        },
+        "ingredients": [
+          {
+            "name": "шерсть нemeanского льва",
+            "quantity": 2
+          },
+          {
+            "name": "рог единорога",
+            "quantity": 1
+          },
+          {
+            "name": "слеза феникса",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 120,
         "efficiency": "критическая"
       },
@@ -278,11 +359,20 @@
         "activeTime": "всегда"
       },
       "protectionRecipe": {
-        "ingredients": {
-          "зуб дракона": 4,
-          "мед из подземелья": 2,
-          "пепел феникса": 1
-        },
+        "ingredients": [
+          {
+            "name": "зуб дракона",
+            "quantity": 4
+          },
+          {
+            "name": "мед из подземелья",
+            "quantity": 2
+          },
+          {
+            "name": "пепел феникса",
+            "quantity": 1
+          }
+        ],
         "preparationTime": 80,
         "efficiency": "высокая"
       },

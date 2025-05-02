@@ -1,18 +1,13 @@
 package org.example;
 
-import org.example.handler.ImportHandler;
-import org.example.handler.JsonImportHandler;
-import org.example.handler.XmlImportHandler;
-import org.example.handler.YamlImportHandler;
-
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 public class BestiariumApp {
     private JFrame frame;
@@ -148,10 +143,10 @@ public class BestiariumApp {
         JTextField nameField = new JTextField(m.name);
         JTextField dangerField = new JTextField(String.valueOf(m.dangerLevel));
         JTextField heightField = new JTextField(
-                m.characteristics != null && m.characteristics.height != null ? m.characteristics.height.toString() : ""
+            m.characteristics != null && m.characteristics.height != null ? m.characteristics.height.toString() : ""
         );
         JTextField activeTimeField = new JTextField(
-                m.characteristics != null ? m.characteristics.activeTime : ""
+            m.characteristics != null ? m.characteristics.activeTime : ""
         );
 
         JPanel panel = new JPanel(new GridLayout(0, 1));

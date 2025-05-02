@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bestiarium>
-    <monsters>
+<MonsterListWrapper>
         <!-- Леший -->
         <monster>
             <name>Леший</name>
@@ -398,5 +397,4 @@
             </protectionRecipe>
             <sourceInfo>Добавлено пользователем</sourceInfo>
         </monster>
-    </monsters>
-</bestiarium>
+</MonsterListWrapper>

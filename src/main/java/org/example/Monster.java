@@ -1,9 +1,10 @@
 package org.example;
 
 import java.util.List;
-import java.util.Map;
 
 public class Monster {
+    public Monster() {}
+
     public String name;
     public String description;
     public int dangerLevel;
@@ -19,6 +20,7 @@ public class Monster {
     }
 
     public static class Characteristics {
+        public Characteristics() {}
         public Double height;
         public Object weight;
         public List<String> immunities;
@@ -26,9 +28,15 @@ public class Monster {
     }
 
     public static class ProtectionRecipe {
-        public Map<String, Integer> ingredients;
+        public ProtectionRecipe() {}
+        public List<Ingredient> ingredients;
         public int preparationTime;
         public String efficiency;
     }
-}
 
+    public static class Ingredient {
+        public Ingredient() {}
+        public String name;
+        public int quantity;
+    }
+}

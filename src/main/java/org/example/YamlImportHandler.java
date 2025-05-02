@@ -1,12 +1,9 @@
-package org.example.handler;
+package org.example;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import org.example.Monster;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 public class YamlImportHandler implements ImportHandler {
@@ -21,14 +18,8 @@ public class YamlImportHandler implements ImportHandler {
     public List<Monster> handle(File file) throws Exception {
         if (file.getName().endsWith(".yaml") || file.getName().endsWith(".yml")) {
             ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-            JsonNode root = mapper.readTree(file);
-            JsonNode monstersNode = root.path("monsters");
-            List<Monster> monsters = new ArrayList<>();
-            for (JsonNode node : monstersNode) {
-                Monster m = mapper.treeToValue(node, Monster.class);
-                monsters.add(m);
-            }
-            return monsters;
+            MonsterListWrapper wrapper = mapper.readValue(file, MonsterListWrapper.class);
+            return wrapper.monsters;
         } else if (next != null) {
             return next.handle(file);
         }
