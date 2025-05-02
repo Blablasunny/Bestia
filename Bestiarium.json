@@ -1,0 +1,292 @@
+{
+  "monsters": [
+    {
+      "name": "Леший",
+      "description": "Гибрид человека и лесного духа, охраняющий древние рощи.",
+      "dangerLevel": 7,
+      "habitats": [
+        "чащоба Брокилона",
+        "чащоба Эдингеля"
+      ],
+      "firstMention": "1234-06-21",
+      "characteristics": {
+        "height": 3,
+        "weight": 300,
+        "immunities": [
+          "магия",
+          "оглушение",
+          "яды"
+        ],
+        "activeTime": "ночь"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "корень мандрагоры": 3,
+          "пепел драконида": 1,
+          "эссенция полыни": 1
+        },
+        "preparationTime": 60,
+        "efficiency": "умеренная"
+      },
+      "sourceInfo": "Bestiarum.txt"
+    },
+    {
+      "name": "Полуденница",
+      "description": "Призрак, терроризирующий поля во время жатвы.",
+      "dangerLevel": 5,
+      "habitats": [
+        "поля Редании",
+        "амбары Туссента"
+      ],
+      "firstMention": "1198-07-15",
+      "characteristics": {
+        "weight": "неосязаем",
+        "immunities": [
+          "кровотечение"
+        ],
+        "activeTime": "день"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "лепестки лунного цветка": 2,
+          "серебряная нить": 1,
+          "экстракт чеснока": 1
+        },
+        "preparationTime": 30,
+        "efficiency": "высокая"
+      },
+      "sourceInfo": "Bestiarum.txt"
+    },
+    {
+      "name": "Катакан",
+      "description": "Крылатый демон с хвостом скорпиона.",
+      "dangerLevel": 9,
+      "habitats": [
+        "горные пещеры Туссента"
+      ],
+      "firstMention": "1150-04-12",
+      "characteristics": {
+        "height": 2,
+        "weight": 200,
+        "immunities": [
+          "огонь",
+          "яды"
+        ],
+        "activeTime": "сумерки"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "жало мантикоры": 4,
+          "нефритовая пыль": 2,
+          "спирт Альберихта": 1
+        },
+        "preparationTime": 90,
+        "efficiency": "критическая"
+      },
+      "sourceInfo": "Bestiarum.txt"
+    },
+    {
+      "name": "Кикимора",
+      "description": "Болотная нежить из гниющих останков.",
+      "dangerLevel": 6,
+      "habitats": [
+        "топи Вендена"
+      ],
+      "firstMention": "1221-09-03",
+      "characteristics": {
+        "height": 1,
+        "weight": 15,
+        "immunities": [
+          "удушье"
+        ],
+        "activeTime": "ночь"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "грибы-поганки": 5,
+          "глаз василиска": 1,
+          "роса папоротника": 3
+        },
+        "preparationTime": 45,
+        "efficiency": "средняя"
+      },
+      "sourceInfo": "Bestiarum.txt"
+    },
+    {
+      "name": "Элементаль льда",
+      "description": "Дух вечной зимы.",
+      "dangerLevel": 10,
+      "habitats": [
+        "ледники Ковира"
+      ],
+      "firstMention": "1105-12-01",
+      "characteristics": {
+        "height": 5,
+        "weight": "не измерим",
+        "immunities": [
+          "заморозка",
+          "дробление"
+        ],
+        "activeTime": "всегда"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "сердце огненного элементаля": 1,
+          "сера": 3,
+          "расплавленное железо": 1
+        },
+        "preparationTime": 120,
+        "efficiency": "переменная"
+      },
+      "sourceInfo": "Bestiarum.txt"
+    },
+    {
+      "name": "Гарпия",
+      "description": "Летучая тварь с телом птицы и лицом женщины.",
+      "dangerLevel": 8,
+      "firstMention": "1245-03-15",
+      "habitats": [
+        "скалистые вершины",
+        "заброшенные башни"
+      ],
+      "characteristics": {
+        "height": 1.8,
+        "weight": 45,
+        "immunities": [
+          "ветер",
+          "высота"
+        ],
+        "activeTime": "день"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "перья орла": 5,
+          "кристалл чистого воздуха": 1,
+          "звездная пыль": 2
+        },
+        "preparationTime": 75,
+        "efficiency": "высокая"
+      },
+      "sourceInfo": "Добавлено пользователем"
+    },
+    {
+      "name": "Минотавр",
+      "description": "Могущественное существо с телом человека и головой быка.",
+      "dangerLevel": 8,
+      "firstMention": "1242-08-20",
+      "habitats": [
+        "лабиринты",
+        "заброшенные храмы"
+      ],
+      "characteristics": {
+        "height": 2.2,
+        "weight": 280,
+        "immunities": [
+          "физическая сила",
+          "ловушки"
+        ],
+        "activeTime": "всегда"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "шерсть золотого барана": 1,
+          "мед из лабиринта": 3,
+          "пряжа Ариадны": 2
+        },
+        "preparationTime": 90,
+        "efficiency": "критическая"
+      },
+      "sourceInfo": "Добавлено пользователем"
+    },
+    {
+      "name": "Вампир",
+      "description": "Нежить, питающаяся кровью живых.",
+      "dangerLevel": 9,
+      "firstMention": "1248-10-31",
+      "habitats": [
+        "темные леса",
+        "заброшенные замки"
+      ],
+      "characteristics": {
+        "height": 1.9,
+        "weight": "неизмерим",
+        "immunities": [
+          "отравление",
+          "болезни",
+          "старение"
+        ],
+        "activeTime": "ночь"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "чеснок": 6,
+          "священная вода": 2,
+          "прах мумии": 1
+        },
+        "preparationTime": 60,
+        "efficiency": "переменная"
+      },
+      "sourceInfo": "Добавлено пользователем"
+    },
+    {
+      "name": "Химера",
+      "description": "Трехголовое чудовище с телом льва, головой козла и головой змеи.",
+      "dangerLevel": 9,
+      "firstMention": "1246-05-10",
+      "habitats": [
+        "горные долины",
+        "пещеры огня"
+      ],
+      "characteristics": {
+        "height": 2.5,
+        "weight": 400,
+        "immunities": [
+          "огонь",
+          "яды",
+          "магия"
+        ],
+        "activeTime": "сумерки"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "шерсть нemeanского льва": 2,
+          "рог единорога": 1,
+          "слеза феникса": 1
+        },
+        "preparationTime": 120,
+        "efficiency": "критическая"
+      },
+      "sourceInfo": "Добавлено пользователем"
+    },
+    {
+      "name": "Гидра",
+      "description": "Многоголовая змея с способностью регенерации.",
+      "dangerLevel": 8,
+      "firstMention": "1244-09-25",
+      "habitats": [
+        "болотистые места",
+        "старые руины"
+      ],
+      "characteristics": {
+        "height": 4,
+        "weight": 250,
+        "immunities": [
+          "отсечение голов",
+          "яды",
+          "кровотечение"
+        ],
+        "activeTime": "всегда"
+      },
+      "protectionRecipe": {
+        "ingredients": {
+          "зуб дракона": 4,
+          "мед из подземелья": 2,
+          "пепел феникса": 1
+        },
+        "preparationTime": 80,
+        "efficiency": "высокая"
+      },
+      "sourceInfo": "Добавлено пользователем"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bestiarium>
+    <monsters>
+        <!-- Леший -->
+        <monster>
+            <name>Леший</name>
+            <description>Гибрид человека и лесного духа, охраняющий древние рощи.</description>
+            <dangerLevel>7</dangerLevel>
+            <firstMention>1234-06-21</firstMention>
+            <habitats>
+                <habitat>чащоба Брокилона</habitat>
+                <habitat>чащоба Эдингеля</habitat>
+            </habitats>
+            <characteristics>
+                <height>3</height>
+                <weight>300</weight>
+                <immunities>
+                    <immunity>магия</immunity>
+                    <immunity>оглушение</immunity>
+                    <immunity>яды</immunity>
+                </immunities>
+                <activeTime>ночь</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>корень мандрагоры</name>
+                        <quantity>3</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>пепел драконида</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>эссенция полыни</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>60</preparationTime>
+                <efficiency>умеренная</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Bestiarum.txt</sourceInfo>
+        </monster>
+
+        <!-- Полуденница -->
+        <monster>
+            <name>Полуденница</name>
+            <description>Призрак, терроризирующий поля во время жатвы.</description>
+            <dangerLevel>5</dangerLevel>
+            <firstMention>1198-07-15</firstMention>
+            <habitats>
+                <habitat>поля Редании</habitat>
+                <habitat>амбары Туссента</habitat>
+            </habitats>
+            <characteristics>
+                <weight>неосязаем</weight>
+                <immunities>
+                    <immunity>кровотечение</immunity>
+                </immunities>
+                <activeTime>день</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>лепестки лунного цветка</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>серебряная нить</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>экстракт чеснока</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>30</preparationTime>
+                <efficiency>высокая</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Bestiarum.txt</sourceInfo>
+        </monster>
+
+        <!-- Катакан -->
+        <monster>
+            <name>Катакан</name>
+            <description>Крылатый демон с хвостом скорпиона.</description>
+            <dangerLevel>9</dangerLevel>
+            <firstMention>1150-04-12</firstMention>
+            <habitats>
+                <habitat>горные пещеры Туссента</habitat>
+            </habitats>
+            <characteristics>
+                <height>2</height>
+                <weight>200</weight>
+                <immunities>
+                    <immunity>огонь</immunity>
+                    <immunity>яды</immunity>
+                </immunities>
+                <activeTime>сумерки</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>жало мантикоры</name>
+                        <quantity>4</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>нефритовая пыль</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>спирт Альберихта</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>90</preparationTime>
+                <efficiency>критическая</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Bestiarum.txt</sourceInfo>
+        </monster>
+
+        <!-- Кикимора -->
+        <monster>
+            <name>Кикимора</name>
+            <description>Болотная нежить из гниющих останков.</description>
+            <dangerLevel>6</dangerLevel>
+            <firstMention>1221-09-03</firstMention>
+            <habitats>
+                <habitat>топи Вендена</habitat>
+            </habitats>
+            <characteristics>
+                <height>1</height>
+                <weight>15</weight>
+                <immunities>
+                    <immunity>удушье</immunity>
+                </immunities>
+                <activeTime>ночь</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>грибы-поганки</name>
+                        <quantity>5</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>глаз василиска</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>роса папоротника</name>
+                        <quantity>3</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>45</preparationTime>
+                <efficiency>средняя</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Bestiarum.txt</sourceInfo>
+        </monster>
+
+        <!-- Элементаль льда -->
+        <monster>
+            <name>Элементаль льда</name>
+            <description>Дух вечной зимы.</description>
+            <dangerLevel>10</dangerLevel>
+            <firstMention>1105-12-01</firstMention>
+            <habitats>
+                <habitat>ледники Ковира</habitat>
+            </habitats>
+            <characteristics>
+                <height>5</height>
+                <weight>не измерим</weight>
+                <immunities>
+                    <immunity>заморозка</immunity>
+                    <immunity>дробление</immunity>
+                </immunities>
+                <activeTime>всегда</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>сердце огненного элементаля</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>сера</name>
+                        <quantity>3</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>расплавленное железо</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>120</preparationTime>
+                <efficiency>переменная</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Bestiarum.txt</sourceInfo>
+        </monster>
+
+        <!-- Гарпия -->
+        <monster>
+            <name>Гарпия</name>
+            <description>Летучая тварь с телом птицы и лицом женщины.</description>
+            <dangerLevel>8</dangerLevel>
+            <firstMention>1245-03-15</firstMention>
+            <habitats>
+                <habitat>скалистые вершины</habitat>
+                <habitat>заброшенные башни</habitat>
+            </habitats>
+            <characteristics>
+                <height>1.8</height>
+                <weight>45</weight>
+                <immunities>
+                    <immunity>ветер</immunity>
+                    <immunity>высота</immunity>
+                </immunities>
+                <activeTime>день</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>перья орла</name>
+                        <quantity>5</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>кристалл чистого воздуха</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>звездная пыль</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>75</preparationTime>
+                <efficiency>высокая</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Добавлено пользователем</sourceInfo>
+        </monster>
+
+        <!-- Минотавр -->
+        <monster>
+            <name>Минотавр</name>
+            <description>Могущественное существо с телом человека и головой быка.</description>
+            <dangerLevel>8</dangerLevel>
+            <firstMention>1242-08-20</firstMention>
+            <habitats>
+                <habitat>лабиринты</habitat>
+                <habitat>заброшенные храмы</habitat>
+            </habitats>
+            <characteristics>
+                <height>2.2</height>
+                <weight>280</weight>
+                <immunities>
+                    <immunity>физическая сила</immunity>
+                    <immunity>ловушки</immunity>
+                </immunities>
+                <activeTime>всегда</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>шерсть золотого барана</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>мед из лабиринта</name>
+                        <quantity>3</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>пряжа Ариадны</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>90</preparationTime>
+                <efficiency>критическая</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Добавлено пользователем</sourceInfo>
+        </monster>
+
+        <!-- Вампир -->
+        <monster>
+            <name>Вампир</name>
+            <description>Нежить, питающаяся кровью живых.</description>
+            <dangerLevel>9</dangerLevel>
+            <firstMention>1248-10-31</firstMention>
+            <habitats>
+                <habitat>темные леса</habitat>
+                <habitat>заброшенные замки</habitat>
+            </habitats>
+            <characteristics>
+                <height>1.9</height>
+                <weight>неизмерим</weight>
+                <immunities>
+                    <immunity>отравление</immunity>
+                    <immunity>болезни</immunity>
+                    <immunity>старение</immunity>
+                </immunities>
+                <activeTime>ночь</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>чеснок</name>
+                        <quantity>6</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>священная вода</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>прах мумии</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>60</preparationTime>
+                <efficiency>переменная</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Добавлено пользователем</sourceInfo>
+        </monster>
+
+        <!-- Химера -->
+        <monster>
+            <name>Химера</name>
+            <description>Трехголовое чудовище с телом льва, головой козла и головой змеи.</description>
+            <dangerLevel>9</dangerLevel>
+            <firstMention>1246-05-10</firstMention>
+            <habitats>
+                <habitat>горные долины</habitat>
+                <habitat>пещеры огня</habitat>
+            </habitats>
+            <characteristics>
+                <height>2.5</height>
+                <weight>400</weight>
+                <immunities>
+                    <immunity>огонь</immunity>
+                    <immunity>яды</immunity>
+                    <immunity>магия</immunity>
+                </immunities>
+                <activeTime>сумерки</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>шерсть нemeanского льва</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>рог единорога</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>слеза феникса</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>120</preparationTime>
+                <efficiency>критическая</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Добавлено пользователем</sourceInfo>
+        </monster>
+
+        <!-- Гидра -->
+        <monster>
+            <name>Гидра</name>
+            <description>Многоголовая змея с способностью регенерации.</description>
+            <dangerLevel>8</dangerLevel>
+            <firstMention>1244-09-25</firstMention>
+            <habitats>
+                <habitat>болотистые места</habitat>
+                <habitat>старые руины</habitat>
+            </habitats>
+            <characteristics>
+                <height>4</height>
+                <weight>250</weight>
+                <immunities>
+                    <immunity>отсечение голов</immunity>
+                    <immunity>яды</immunity>
+                    <immunity>кровотечение</immunity>
+                </immunities>
+                <activeTime>всегда</activeTime>
+            </characteristics>
+            <protectionRecipe>
+                <ingredients>
+                    <ingredient>
+                        <name>зуб дракона</name>
+                        <quantity>4</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>мед из подземелья</name>
+                        <quantity>2</quantity>
+                    </ingredient>
+                    <ingredient>
+                        <name>пепел феникса</name>
+                        <quantity>1</quantity>
+                    </ingredient>
+                </ingredients>
+                <preparationTime>80</preparationTime>
+                <efficiency>высокая</efficiency>
+            </protectionRecipe>
+            <sourceInfo>Добавлено пользователем</sourceInfo>
+        </monster>
+    </monsters>
+</bestiarium>
